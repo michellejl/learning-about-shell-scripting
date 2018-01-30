@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Variables must be alpha-numeric
+# no spaces between variable name and the thing being set to it.
+VAR="this is a string"
+
+# Often all caps, but not technically required
+
+# Add a $ to beginning of variable to access it
+echo $VAR
+
+# Use export to send variables to a subshell
+export VAR2="Bananas"
+bash # Opens a subshell where you can access $VAR2
+
+# Can also use declare -x just like export
+declare -x VAR3="more bananas!"
+bash
