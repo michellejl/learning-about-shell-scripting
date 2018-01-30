@@ -1,0 +1,20 @@
+
+# no execute (read only)
+echo "** dash n"
+bash -n intro
+echo
+
+# syntax check only
+echo "** dash a"
+bash -a intro
+echo
+
+# verbos: echos every line read (including comments)
+echo "** dash v"
+bash -v intro
+echo
+
+# echos every line being executed (not comments)
+echo "** dash x"
+bash -x intro
+echo

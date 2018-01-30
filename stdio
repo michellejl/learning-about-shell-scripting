@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# change standard out / standard error
+echo "Changing out / error:"
+ls -l > lsout
+ls -l not.here 2> lserr
+echo
+
+# Seperate output
+echo "seperating out / error"
+ls -l . not.here > lsout2 2> lserr2
+echo
+
+# all output to same
+echo "all the output to one place"
+ls -l . not.here &> lsboth
+echo
+
+# change standard in
+echo "couting words in the intro script"
+wc < intro
+echo
+
+# piping!
+echo "out of 'ls' to in of 'wc'"
+ls | wc
+echo "out and error of 'ls' to in of 'wc'"
+ls not.here 2>&1 | wc

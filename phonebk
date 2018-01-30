@@ -1,0 +1,9 @@
+#!/bin/bash
+grep -i $* << EOF
+
+bob 555-1234
+bill 555-4321
+ben 555-9876
+john  555-2323
+
+EOF

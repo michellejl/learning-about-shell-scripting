@@ -1,0 +1,17 @@
+#!/bin/bash
+grep -i $* << EOF
+
+asciiquarium
+exiftool
+gdbm
+git
+openssl
+python3
+readline
+sqlite
+thefuck
+xz
+yarn
+z
+
+EOF

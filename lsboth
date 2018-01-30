@@ -1,0 +1,11 @@
+ls: not.here: No such file or directory
+.:
+total 64
+-rwxr-xr-x  1 mlevi4  NIKE\Domain Users  149 Jan 26 15:37 intro
+-rw-r--r--  1 mlevi4  NIKE\Domain Users   40 Jan 26 15:51 lsboth
+-rw-r--r--  1 mlevi4  NIKE\Domain Users   40 Jan 26 15:51 lserr
+-rw-r--r--  1 mlevi4  NIKE\Domain Users   40 Jan 26 15:51 lserr2
+-rw-r--r--  1 mlevi4  NIKE\Domain Users  528 Jan 26 15:51 lsout
+-rw-r--r--  1 mlevi4  NIKE\Domain Users  531 Jan 26 15:51 lsout2
+-rwxr-xr-x  1 mlevi4  NIKE\Domain Users   94 Jan 25 11:01 pagecount
+-rwxr-xr-x  1 mlevi4  NIKE\Domain Users  498 Jan 26 15:51 stdio

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# if this command suceeds...
+if cd /tempp 2>/dev/null
+then
+  echo "cd worked"
+else
+  echo "cd failed"
+  exit 1
+fi
+
+# in shell, exit 0 = true, exit 1 = false

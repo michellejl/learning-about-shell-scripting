@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# run first command and if it is sucessful, run second command
+cd /temp && echo 'I am here'
+
+# run the first command and if it fails, run the second command
+# cd /bananafish || echo 'It did not work'
+cd /bananafish 2>dev/null || { echo 'It did not work' ; exit 1 ; }
