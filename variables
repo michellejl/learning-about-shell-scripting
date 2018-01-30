@@ -16,3 +16,12 @@ bash # Opens a subshell where you can access $VAR2
 # Can also use declare -x just like export
 declare -x VAR3="more bananas!"
 bash
+
+# $? --> The sucess/failure exit code of last command
+echo $?
+
+# $PS1 --> command prompt
+echo $PS1 
+
+# $PATH --> Used to determine location of commads you execute
+echo $PATH
