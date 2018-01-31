@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Positional Parameters are the words put on the command line after (to the right of) the command name
+
+echo "The first positional parameter is:" $1
+
+var="$2"
+
+echo "The second is:" $var
+
+# $* and $# can be used as all the parameters.
